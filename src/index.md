@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: Getting Started
       link: /getting-started.md
-    - theme: alt
-      text: Portal
-      link: /standalone-pages/portal
 
 features:
   - title: Are you crazy mad RN? 🤬

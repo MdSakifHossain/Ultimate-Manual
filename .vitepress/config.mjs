@@ -14,7 +14,6 @@ export default defineConfig({
 
     nav: [
       { text: "Home", link: "/" },
-      { text: "Portal", link: "/standalone-pages/portal" },
       { text: "Docs", link: "/getting-started" },
     ],
 
