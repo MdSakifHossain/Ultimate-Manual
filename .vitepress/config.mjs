@@ -3,12 +3,13 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "src",
+  lastUpdated: true,
 
   title: "Ultimate Manual",
   description: "Some Description",
+  head: [["link", { rel: "icon", href: "/icon.svg" }]],
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: "/icon.svg",
 
     nav: [
@@ -48,12 +49,19 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/MdSakifHossain" },
+      {
+        icon: "github",
+        link: "https://github.com/MdSakifHossain/Ultimate-Manual",
+      },
     ],
 
     footer: {
       message: "You are your Biggest Ally and Enemy",
       copyright: `Dont be fed up. you can overcome this.`,
+    },
+
+    search: {
+      provider: "local",
     },
   },
 });

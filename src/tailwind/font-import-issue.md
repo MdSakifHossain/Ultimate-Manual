@@ -1,16 +1,3 @@
----
-tags:
-  [
-    font-import-pitfall,
-    google-fonts,
-    css-import-order,
-    postcss-error,
-    tailwindcss-v4,
-    css-at-import-rules,
-    vite,
-  ]
----
-
 # Font Import Issue
 
 I'm so fucking stupid. 😒😒
@@ -104,7 +91,3 @@ We just have to move the line from `line 6` to `line 1`. And, **Everything else 
 ## Reference
 
 Well, I don't have any reference on this topic. Just added this topic so that the page would be a little longer. 😁
-
-## Tags
-
-{{ $frontmatter.tags.map(tag => "#"+tag).join(', ') }}
