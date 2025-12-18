@@ -63,6 +63,11 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+
+    editLink: {
+      pattern:
+        "https://github.com/MdSakifHossain/Ultimate-Manual/edit/main/src/:path",
+    },
   },
 });
 
