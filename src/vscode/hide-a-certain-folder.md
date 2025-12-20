@@ -8,12 +8,12 @@ We have to understand the scenario first. I was trying to make a VitePress Websi
 
 ::: code-group
 
-```shell:line-numbers [Terminal] {5}
+```shell {5} [Terminal]
 tree -a -L 1 --dirsfirst
 .
 ├── .git
 ├── .vitepress
-├── node_modules    # [!code focus]
+├── node_modules
 ├── src
 ├── .gitignore
 ├── package.json
@@ -25,7 +25,7 @@ tree -a -L 1 --dirsfirst
 
 :::
 
-**This folder was bothering me in VSCode on a spiritual level.**
+> This folder was bothering me in VSCode on a spiritual level.
 
 Before losing my _Sanity_, i asked internet and got a solution.
 

@@ -36,7 +36,7 @@ This issue has happened because i have imported the `Google Font` in the `inde.c
 
 ::: code-group
 
-```css:line-numbers {6}
+```css:line-numbers {6} [index.css]
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -64,7 +64,7 @@ We just have to move the line from `line 6` to `line 1`. And, **Everything else 
 
 ::: code-group
 
-```css:line-numbers {1}
+```css:line-numbers {1} [index.css]
 @import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Outfit:wght@100..900&family=Press+Start+2P&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";

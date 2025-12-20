@@ -1,4 +1,9 @@
 import { defineConfig } from "vitepress";
+import {
+  groupIconMdPlugin,
+  groupIconVitePlugin,
+  localIconLoader,
+} from "vitepress-plugin-group-icons";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -77,6 +82,21 @@ export default defineConfig({
       // dark: "material-theme-darker",
       dark: "andromeeda",
     },
+
+    config(md) {
+      md.use(groupIconMdPlugin);
+    },
+  },
+
+  vite: {
+    plugins: [
+      groupIconVitePlugin({
+        customIcon: {
+          terminal: "logos:bash-icon",
+          css: "vscode-icons:file-type-css2",
+        },
+      }),
+    ],
   },
 });
 
