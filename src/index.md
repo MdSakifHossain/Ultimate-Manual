@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Getting Started
       link: /getting-started.md
+  image:
+    src: /icon.svg
+    alt: icon
 
 features:
   - title: Are you crazy mad RN? 🤬
