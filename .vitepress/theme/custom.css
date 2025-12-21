@@ -133,6 +133,13 @@ div.items div.header a.top-link {
   font-family: "Cubano", serif;
 }
 
+/* Docs page "alert blocks title" */
+p.custom-block-title,
+summary {
+  font-family: "Cubano", serif;
+  font-weight: 100 !important;
+}
+
 /**
  *  some code from chatgpt
  */
