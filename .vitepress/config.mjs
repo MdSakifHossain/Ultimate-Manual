@@ -95,6 +95,10 @@ export default defineConfig({
             text: `Change Syntax Highlighting`,
             link: "/vitepress/customize-default-syntax-highlighting",
           },
+          {
+            text: "Add File Icons",
+            link: "/vitepress/add-file-icons",
+          },
         ],
       },
     ],
