@@ -99,6 +99,10 @@ export default defineConfig({
             text: "Add File Icons",
             link: "/vitepress/add-file-icons",
           },
+          {
+            text: "Customize Styles with CSS",
+            link: "/vitepress/customize-styles-with-css",
+          },
         ],
       },
     ],
