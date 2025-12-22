@@ -6,6 +6,8 @@ Well, I didnt do any research on this css. Because it was a total blast of rabbi
 
 ## Code
 
+::: details CSS Code
+
 ```css:line-numbers [custom.css]
 /* .vitepress/theme/custom.css */
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
@@ -162,3 +164,9 @@ summary {
   font-feature-settings: "liga" 1;
 } */
 ```
+
+:::
+
+## Reference
+
+- [Offical Docs (VitePress)](https://vitepress.dev/guide/extending-default-theme) 🚀
