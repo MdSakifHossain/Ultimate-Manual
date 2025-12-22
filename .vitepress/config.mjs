@@ -91,6 +91,10 @@ export default defineConfig({
             text: `Add "Last Updated Timestamp"`,
             link: "/vitepress/add-last-updated-timestamp",
           },
+          {
+            text: `Change Syntax Highlighting`,
+            link: "/vitepress/customize-default-syntax-highlighting",
+          },
         ],
       },
     ],
