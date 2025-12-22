@@ -47,7 +47,7 @@ export default defineConfig({
         items: [
           {
             text: "Hide a Certain Folder",
-            link: "/vscode/hide-a-certain-folder.md",
+            link: "/vscode/hide-a-certain-folder",
           },
         ],
       },
@@ -57,31 +57,31 @@ export default defineConfig({
         items: [
           {
             text: "Get Started",
-            link: "/vitepress/get-started-with-vitepress.md",
+            link: "/vitepress/get-started-with-vitepress",
           },
           {
             text: "Customize Homepage",
-            link: "/vitepress/customize-homepage.md",
+            link: "/vitepress/customize-homepage",
           },
           {
             text: "Customize Navbar",
-            link: "/vitepress/customize-navbar.md",
+            link: "/vitepress/customize-navbar",
           },
           {
             text: "Customize Footer",
-            link: "/vitepress/customize-Footer.md",
+            link: "/vitepress/customize-Footer",
           },
           {
             text: "Add Favicon",
-            link: "/vitepress/add-favicon.md",
+            link: "/vitepress/add-favicon",
           },
           {
             text: "Customize Sidebar",
-            link: "/vitepress/customize-sidebar.md",
+            link: "/vitepress/customize-sidebar",
           },
           {
             text: "Add Search Fearture",
-            link: "/vitepress/add-search.md",
+            link: "/vitepress/add-search",
           },
           {
             text: `Add "Edit this Page"`,
