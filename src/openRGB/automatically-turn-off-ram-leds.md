@@ -2,7 +2,35 @@
 
 You can automate which can be done by Human interaction.
 
+## Design System
+
+<img 
+  src="https://i.giphy.com/3V33ssIjg0BUGafaU0.webp" 
+  alt="useless-image" 
+  width="50%" 
+/>
+
+> **Event**: user logs in
+>
+> **Action**: wait 20 seconds
+>
+> **Then**: run `openrgb --mode off`
+
+```
+system boots
+→ login succeeds
+→ user session starts
+→ systemd (user) activates default target
+→ your rule is triggered
+→ wait 20 seconds
+→ openrgb --mode off
+→ LEDs turn off
+→ rule exits
+```
+
 ## Human Interaction
+
+![useless-image](https://i.giphy.com/3o6Ei2yv8fqpR3nJG8.webp)
 
 `system boots ==> login ==> terminal ==> command ==> RGB off`
 
@@ -39,27 +67,13 @@ $ openrgb --mode off
 
 This also works without the `sudo`. So we are `Golden`.
 
-## Design System
-
-> **Event**: user logs in
->
-> **Action**: wait 20 seconds
->
-> **Then**: run `openrgb --mode off`
-
-```
-system boots
-→ login succeeds
-→ user session starts
-→ systemd (user) activates default target
-→ your rule is triggered
-→ wait 20 seconds
-→ openrgb --mode off
-→ LEDs turn off
-→ rule exits
-```
-
 ## Automation Implementation
+
+<img 
+  src="https://i.giphy.com/3oz8xtBx06mcZWoNJm.webp" 
+  alt="useless-image" 
+  width="50%" 
+/>
 
 This step is mechanical, not conceptual;
 
@@ -230,3 +244,5 @@ To remove it (God forbid you do):
 systemctl --user disable openrgb-off.service
 rm ~/.config/systemd/user/openrgb-off.service
 ```
+
+![Victory](https://i.giphy.com/1dMNqVx9Kb12EBjFrc.webp)
